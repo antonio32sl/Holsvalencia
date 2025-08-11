@@ -9,28 +9,66 @@ import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover
 import { format } from 'date-fns';
 import { Calendar as CalendarIcon, CheckCircle, Loader2 } from 'lucide-react';
 
+// Importa el cliente supabase
+import { supabase } from '@/lib/supabase-client';
+
 export default function Booking() {
   const { t } = useLanguage();
   const [date, setDate] = useState<Date | undefined>(undefined);
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
+  const [message, setMessage] = useState('');
+
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
-  
-  const handleSubmit = (e: React.FormEvent) => {
+  const [errorMsg, setErrorMsg] = useState('');
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+
+    if (!date) {
+      setErrorMsg('Please select a date');
+      return;
+    }
+
     setIsSubmitting(true);
-    
-    // Simulate form submission
+    setErrorMsg('');
+
+    // Inserta datos en la tabla "bookings" (cambia por el nombre real de tu tabla)
+    const { data, error } = await supabase.from('reserva').insert([
+      {
+        name,
+        email,
+        phone,
+        date: date.toISOString(),
+        message,
+        created_at: new Date().toISOString()
+      }
+    ]);
+
+    setIsSubmitting(false);
+
+    if (error) {
+      setErrorMsg('Error al enviar la reserva: ' + error.message);
+      return;
+    }
+
+    setIsSubmitted(true);
+
+    // Limpiar formulario
+    setName('');
+    setEmail('');
+    setPhone('');
+    setDate(undefined);
+    setMessage('');
+
+    // Resetear estado enviado después de 5 segundos
     setTimeout(() => {
-      setIsSubmitting(false);
-      setIsSubmitted(true);
-      
-      // Reset the submission status after 5 seconds
-      setTimeout(() => {
-        setIsSubmitted(false);
-      }, 5000);
-    }, 1500);
+      setIsSubmitted(false);
+    }, 5000);
   };
-  
+
   return (
     <section id="booking" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
@@ -42,7 +80,7 @@ export default function Booking() {
             {t('booking.description')}
           </p>
         </div>
-        
+
         <div className="max-w-3xl mx-auto bg-white rounded-lg shadow-md overflow-hidden">
           {isSubmitted ? (
             <div className="p-8 text-center">
@@ -56,37 +94,46 @@ export default function Booking() {
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="p-8">
+              {errorMsg && (
+                <p className="mb-4 text-red-600 font-semibold">{errorMsg}</p>
+              )}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="space-y-2">
                   <Label htmlFor="name">{t('booking.name')}</Label>
-                  <Input 
+                  <Input
                     id="name"
-                    type="text" 
+                    type="text"
                     required
                     placeholder="John Doe"
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
                   />
                 </div>
-                
+
                 <div className="space-y-2">
                   <Label htmlFor="email">{t('booking.email')}</Label>
-                  <Input 
+                  <Input
                     id="email"
-                    type="email" 
+                    type="email"
                     required
                     placeholder="john@example.com"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
                   />
                 </div>
-                
+
                 <div className="space-y-2">
                   <Label htmlFor="phone">{t('booking.phone')}</Label>
-                  <Input 
+                  <Input
                     id="phone"
                     type="tel"
-                    required 
+                    required
                     placeholder="+34 612 345 678"
+                    value={phone}
+                    onChange={(e) => setPhone(e.target.value)}
                   />
                 </div>
-                
+
                 <div className="space-y-2">
                   <Label htmlFor="date">{t('booking.date')}</Label>
                   <Popover>
@@ -110,20 +157,22 @@ export default function Booking() {
                     </PopoverContent>
                   </Popover>
                 </div>
-                
+
                 <div className="space-y-2 md:col-span-2">
                   <Label htmlFor="message">{t('booking.message')}</Label>
-                  <Textarea 
+                  <Textarea
                     id="message"
                     rows={4}
                     required
                     placeholder="Please tell us about your property and what services you're interested in."
+                    value={message}
+                    onChange={(e) => setMessage(e.target.value)}
                   />
                 </div>
-                
+
                 <div className="md:col-span-2">
-                  <Button 
-                    type="submit" 
+                  <Button
+                    type="submit"
                     className="w-full"
                     disabled={isSubmitting}
                   >
