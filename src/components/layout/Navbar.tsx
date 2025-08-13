@@ -55,7 +55,7 @@ export default function Navbar() {
           {/* Logo */}
           <div className="flex items-center">
             <img 
-              src="/assets/images/logo.png" 
+              src="/assets/images/icon2.png" 
               alt="Hola Hosts Valencia" 
               className="h-10 w-auto"
             />
