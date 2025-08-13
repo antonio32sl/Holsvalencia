@@ -9,7 +9,7 @@ export default function Services() {
     {
       id: 'item1',
       icon: <MessageSquare className="h-64 md:h-80 text-blue-500" />,
-      imageSrc: "/assets/images/service2.png"
+   
     },
     {
       id: 'item2',
@@ -22,7 +22,7 @@ export default function Services() {
     {
       id: 'item4',
       icon: <Wrench className="h-64 md:h-80 text-blue-500" />,
-      imageSrc: "/assets/images/service1.png"
+      
     },
     {
       id: 'item5',
