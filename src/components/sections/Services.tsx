@@ -8,33 +8,33 @@ export default function Services() {
   const serviceItems = [
     {
       id: 'item1',
-      icon: <MessageSquare className="h-10 w-10 text-blue-500" />,
+      icon: <MessageSquare className="h-64 md:h-80 text-blue-500" />,
       imageSrc: "/assets/images/service2.png"
     },
     {
       id: 'item2',
-      icon: <Calendar className="h-10 w-10 text-blue-500" />
+      icon: <Calendar className="h-64 md:h-80 text-blue-500" />
     },
     {
       id: 'item3',
-      icon: <Brush className="h-10 w-10 text-blue-500" />
+      icon: <Brush className="h-64 md:h-80text-blue-500" />
     },
     {
       id: 'item4',
-      icon: <Wrench className="h-10 w-10 text-blue-500" />,
+      icon: <Wrench className="h-64 md:h-80 text-blue-500" />,
       imageSrc: "/assets/images/service1.png"
     },
     {
       id: 'item5',
-      icon: <Globe className="h-10 w-10 text-blue-500" />
+      icon: <Globe className="h-64 md:h-80 text-blue-500" />
     },
     {
       id: 'item6',
-      icon: <FileText className="h-10 w-10 text-blue-500" />
+      icon: <FileText className="h-64 md:h-80text-blue-500" />
     },
     {
       id: 'item7',
-      icon: <TrendingUp className="h-10 w-10 text-blue-500" />
+      icon: <TrendingUp className="h-64 md:h-80 text-blue-500" />
     }
   ];
   
