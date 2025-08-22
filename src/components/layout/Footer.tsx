@@ -55,7 +55,7 @@ export default function Footer() {
                 <Tiktok size={20} />
               </a>
             </div>
-          </div>
+      
           
           {/* Quick Links */}
           <div>
