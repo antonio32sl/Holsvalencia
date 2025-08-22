@@ -55,8 +55,7 @@ export default function Footer() {
                 <Tiktok size={20} />
               </a>
             </div>
-      
-          
+
           {/* Quick Links */}
           <div>
             <h3 className="text-lg font-semibold mb-4">{t('footer.quickLinks')}</h3>
