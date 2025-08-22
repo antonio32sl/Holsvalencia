@@ -30,19 +30,19 @@ export default function Contact() {
     { 
       name: 'Facebook', 
       icon: <Facebook size={24} />, 
-      url: 'https://facebook.com', 
+      url: 'https://www.facebook.com/share/16EtiEifM4/?mibextid=wwXIfr', 
       color: 'bg-blue-500' 
     },
     { 
       name: 'Instagram', 
       icon: <Instagram size={24} />, 
-      url: 'https://instagram.com', 
+      url: 'https://www.instagram.com/holahostsvalencia?igsh=cGtldzNnZTRjNTFz', 
       color: 'bg-pink-500' 
     },
     { 
-      name: 'Twitter', 
-      icon: <Twitter size={24} />, 
-      url: 'https://twitter.com', 
+      name: 'TikTok', 
+      icon: <TikTok size={24} />, 
+      url: 'https://www.instagram.com/holahostsvalencia?igsh=cGtldzNnZTRjNTFz', 
       color: 'bg-blue-400' 
     }
   ];
