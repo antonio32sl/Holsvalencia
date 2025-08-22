@@ -44,6 +44,12 @@ export default function Contact() {
       icon: <Twitter size={24} />, 
       url: 'https://www.twitter.com', 
       color: 'bg-blue-400' 
+    },
+      { 
+      name: 'Tiktor', 
+      icon: <tiktor size={24} />, 
+      url: 'https://https://www.tiktok.com/@holahostsvalencia?_t=ZN-8z5XrK78Wfu&_r=1', 
+      color: 'bg-black-400' 
     }
   ];
   
