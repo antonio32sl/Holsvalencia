@@ -40,9 +40,9 @@ export default function Contact() {
       color: 'bg-pink-500' 
     },
     { 
-      name: 'TikTok', 
-      icon: <TikTok size={24} />, 
-      url: 'https://www.TikTok.com', 
+      name: 'Twitter', 
+      icon: <Twitter size={24} />, 
+      url: 'https://www.twitter.com', 
       color: 'bg-blue-400' 
     }
   ];
