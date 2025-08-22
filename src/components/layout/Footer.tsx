@@ -48,6 +48,7 @@ export default function Footer() {
                 className="p-2 bg-gray-800 rounded-full hover:bg-pink-600 transition-colors"
               >
                 <Instagram size={20} />
+                </a>
             <a 
   href="https://www.tiktok.com/@holahostsvalencia?_t=ZN-8z5XrK78Wfu&_r=1" 
   target="_blank" 
