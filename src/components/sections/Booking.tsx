@@ -31,6 +31,28 @@ export default function Booking() {
       setErrorMsg('Please select a date');
       return;
     }
+  // ✅ 2. Enviar email usando Edge Function
+  try {
+    const response = await fetch('https://mlupwafvacqddtfnuwuf.supabase.co/functions/v1/super-api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        name,
+        email,
+        phone,
+        date: date.toISOString(),
+        message
+      })
+    });
+
+    if (!response.ok) {
+      console.error('Error al enviar el correo:', await response.text());
+    }
+  } catch (e) {
+    console.error('Error llamando a la función de correo:', e);
+  }
 
     setIsSubmitting(true);
     setErrorMsg('');
