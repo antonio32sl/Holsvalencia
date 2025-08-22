@@ -48,13 +48,13 @@ export default function Footer() {
                 className="p-2 bg-gray-800 rounded-full hover:bg-pink-600 transition-colors"
               >
                 <Instagram size={20} />
-                </a>
+              </a>
             <a 
-  href="https://www.tiktok.com/@holahostsvalencia?_t=ZN-8z5XrK78Wfu&_r=1" 
-  target="_blank" 
-  rel="noopener noreferrer"
-  className="p-2 bg-gray-800 rounded-full hover:bg-black transition-colors"
->
+            href="https://www.tiktok.com/@holahostsvalencia?_t=ZN-8z5XrK78Wfu&_r=1" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="p-2 bg-gray-800 rounded-full hover:bg-black transition-colors"
+            >
   <img src="/assets/icons/tiktok.svg" alt="TikTok" className="w-6 h-6" />
 </a>
 
