@@ -56,6 +56,7 @@ export default function Footer() {
             className="p-2 bg-gray-800 rounded-full hover:bg-black transition-colors"
             >
           <img src="/assets/icons/tiktok.svg" alt="TikTok" className="w-6 h-6" />
+          <TikTok size={20} />
           </a>
             </div>
           </div>
