@@ -30,7 +30,7 @@ export default function Contact() {
     { 
       name: 'Facebook', 
       icon: <Facebook size={24} />, 
-      url: 'www.facebook.com/share/16EtiEifM4/?mibextid=wwXIfr', 
+      url: 'https://www.facebook.com/share/16EtiEifM4/?mibextid=wwXIfr', 
       color: 'bg-blue-500' 
     },
     { 
