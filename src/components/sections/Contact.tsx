@@ -39,12 +39,6 @@ export default function Contact() {
       url: 'https://www.instagram.com/holahostsvalencia?igsh=cGtldzNnZTRjNTFz', 
       color: 'bg-pink-500' 
     },
-    { 
-      name: 'Twitter', 
-      icon: <Twitter size={24} />, 
-      url: 'https://www.twitter.com', 
-      color: 'bg-blue-400' 
-    },
       { 
       name: 'Tiktor', 
       icon: <tiktor size={24} />, 
