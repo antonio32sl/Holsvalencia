@@ -47,19 +47,12 @@ export default function Footer() {
                 rel="noopener noreferrer" 
                 className="p-2 bg-gray-800 rounded-full hover:bg-pink-600 transition-colors"
               >
-                <a href="https://www.tiktok.com/@holahostsvalencia?_t=ZN-8z5XrK78Wfu&_r=1" target="_blank" rel="noopener noreferrer">
-  <img src="/assets/icons/tiktok.svg" alt="TikTok" className="w-6 h-6" />
-</a>
-
                 <Instagram size={20} />
               </a>
-              <a 
-                href="https://twitter.com" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="p-2 bg-gray-800 rounded-full hover:bg-blue-400 transition-colors"
-              >
-                <Twitter size={20} />
+              <a href="https://www.tiktok.com/@holahostsvalencia?_t=ZN-8z5XrK78Wfu&_r=1" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/icons/tiktok.svg" alt="TikTok" className="w-6 h-6" />
+              </a>
+                <Tiktok size={20} />
               </a>
             </div>
           </div>
