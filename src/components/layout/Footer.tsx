@@ -55,8 +55,8 @@ export default function Footer() {
             rel="noopener noreferrer"
             className="p-2 bg-gray-800 rounded-full hover:bg-black transition-colors"
             >
-          <TikTok size={20} />
-          </a>
+                <TikTok size={20} />
+              </a>
             </div>
           </div>
 
