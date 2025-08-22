@@ -34,7 +34,7 @@ export default function Footer() {
             {/* Social Links */}
             <div className="flex space-x-4">
               <a 
-                href="https://facebook.com" 
+                href="https://www.facebook.com/share/16EtiEifM4/?mibextid=wwXIfr" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="p-2 bg-gray-800 rounded-full hover:bg-blue-600 transition-colors"
