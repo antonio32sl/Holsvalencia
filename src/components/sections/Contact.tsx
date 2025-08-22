@@ -36,7 +36,7 @@ export default function Contact() {
     { 
       name: 'Instagram', 
       icon: <Instagram size={24} />, 
-      url: 'https://www.instagram.com', 
+      url: 'https://www.instagram.com/holahostsvalencia?igsh=cGtldzNnZTRjNTFz', 
       color: 'bg-pink-500' 
     },
     { 
