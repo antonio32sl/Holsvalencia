@@ -31,6 +31,9 @@ export default function Booking() {
       setErrorMsg('Please select a date');
       return;
     }
+    
+  // 🟡 Log para comprobar cuántas veces se dispara
+  console.log('Enviando datos a Edge Function');
   // ✅ 2. Enviar email usando Edge Function
   try {
     const response = await fetch('https://mlupwafvacqddtfnuwuf.supabase.co/functions/v1/super-api', {
