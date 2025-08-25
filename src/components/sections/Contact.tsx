@@ -43,7 +43,7 @@ export default function Contact() {
       name: 'Tiktor', 
       icon: <img src="/assets/images/tiktok.svg" alt="TikTok" className="w-6 h-6" />, 
       url: 'https://https://www.tiktok.com/@holahostsvalencia?_t=ZN-8z5XrK78Wfu&_r=1', 
-      color: 'bg-black-400' 
+      color: 'bg-white-400' 
     }
   ];
   
