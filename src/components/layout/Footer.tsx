@@ -86,11 +86,11 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-center">
                 <MapPin size={20} className="mr-2 text-blue-400" />
-                <span className="text-gray-400">Carrer de Guillem de Castro, 75<br/>46008 València, Spain</span>
+                <span className="text-gray-400">Carrer de la reina, 178<br/>46011 València, Spain</span>
               </li>
               <li className="flex items-center">
                 <Phone size={20} className="mr-2 text-blue-400" />
-                <span className="text-gray-400">+34 612 345 678</span>
+                <span className="text-gray-400">+34 641 908 620 </span>
               </li>
               <li className="flex items-center">
                 <Mail size={20} className="mr-2 text-blue-400" />
