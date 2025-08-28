@@ -10,7 +10,7 @@ export default function Contact() {
       icon: <MapPin className="h-7 w-7 text-blue-500" />,
       label: t('contact.address'),
       value: 'Carrer de la reina, 178, 46011 València, Spain',
-      link: 'https://maps.google.com/?q=Carrer+de+la+Reina+178+Valencia'
+      link: 'https://maps.app.goo.gl/ATdC6c37iYpe7pyj6
     },
     {
       icon: <Phone className="h-7 w-7 text-blue-500" />,
