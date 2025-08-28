@@ -289,4 +289,5 @@ export const translations: TranslationDictionary = {
       contact: "Contact",
       copyright: "Tous droits réservés."
     }
+  }  
 };
