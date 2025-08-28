@@ -10,7 +10,7 @@ export default function Contact() {
       icon: <MapPin className="h-7 w-7 text-blue-500" />,
       label: t('contact.address'),
       value: 'Carrer de la reina, 178, 46011 València, Spain',
-      link: 'https://maps.app.goo.gl/ATdC6c37iYpe7pyj6'
+      link: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6159.89230853022!2d-0.3331604108600349!3d39.47054513948601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604865fd132f99%3A0xb948abc225acf2ad!2sC%2F%20de%20la%20Reina%2C%20178%2C%20Poblats%20Mar%C3%ADtims%2C%2046011%20Val%C3%A8ncia!5e0!3m2!1ses!2ses!4v1756410448210!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
     },
     {
       icon: <Phone className="h-7 w-7 text-blue-500" />,
@@ -107,7 +107,7 @@ export default function Contact() {
               <CardContent className="p-0 h-full">
                 <iframe
                   title="Hola Hosts Valencia Location"
-                  src="https://maps.app.goo.gl/ATdC6c37iYpe7pyj6"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6159.89230853022!2d-0.3331604108600349!3d39.47054513948601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604865fd132f99%3A0xb948abc225acf2ad!2sC%2F%20de%20la%20Reina%2C%20178%2C%20Poblats%20Mar%C3%ADtims%2C%2046011%20Val%C3%A8ncia!5e0!3m2!1ses!2ses!4v1756410448210!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
                   className="w-full h-full min-h-[400px]"
                   style={{ border: 0 }}
                   allowFullScreen
