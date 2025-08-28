@@ -38,7 +38,7 @@ export default function Hero() {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-blue-500 to-indigo-500 rounded-lg transform rotate-3 opacity-10 blur-xl"></div>
               <img 
-                src="/assets/images/service1.png" 
+                src="/assets/images/icon3.png" 
                 alt="Valencia Property Management" 
                 className="relative z-10 rounded-lg shadow-xl w-full"
               />
