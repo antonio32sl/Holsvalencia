@@ -9,14 +9,14 @@ export default function Contact() {
     {
       icon: <MapPin className="h-7 w-7 text-blue-500" />,
       label: t('contact.address'),
-      value: 'Carrer de Guillem de Castro, 75, 46008 València, Spain',
-      link: 'https://maps.google.com/?q=Carrer+de+Guillem+de+Castro+75+Valencia'
+      value: 'Carrer de la reina, 178, 46011 València, Spain',
+      link: 'https://maps.google.com/?q=Carrer+de+la+Reina+178+Valencia'
     },
     {
       icon: <Phone className="h-7 w-7 text-blue-500" />,
       label: t('contact.phone'),
-      value: '+34 612 345 678',
-      link: 'tel:+34612345678'
+      value: '+34 641 908 620',
+      link: 'tel:+34641908620'
     },
     {
       icon: <Mail className="h-7 w-7 text-blue-500" />,
@@ -43,7 +43,7 @@ export default function Contact() {
       name: 'Tiktok', 
       icon: <img src="/assets/images/tiktok.svg" alt="TikTok" className="w-6 h-6" />, 
       url: 'https://www.tiktok.com/@holahostsvalencia', 
-      color: 'bg-white-400' 
+      color: 'bg-black-400' 
     }
   ];
   
@@ -107,7 +107,7 @@ export default function Contact() {
               <CardContent className="p-0 h-full">
                 <iframe
                   title="Hola Hosts Valencia Location"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.9748402359993!2d-0.3896993!3d39.474891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f557d04bba7%3A0x9dcbf59f39e48f68!2sCarrer%20de%20Guillem%20de%20Castro%2C%2075%2C%2046008%20Val%C3%A8ncia!5e0!3m2!1sen!2ses!4v1692345678901!5m2!1sen!2ses"
+                  src="https://www.google.com/maps/place/C%2F+de+la+Reina,+178,+Poblats+Mar%C3%ADtims,+46011+Val%C3%A8ncia/@39.4705451,-0.3331604,16z/data=!3m1!4b1!4m6!3m5!1s0xd604865fd132f99:0xb948abc225acf2ad!8m2!3d39.4705411!4d-0.3282895!16s%2Fg%2F11c5ll4ddt?entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D"
                   className="w-full h-full min-h-[400px]"
                   style={{ border: 0 }}
                   allowFullScreen
