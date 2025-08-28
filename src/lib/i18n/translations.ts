@@ -113,7 +113,7 @@ export const translations: TranslationDictionary = {
       },
       item5: {
         title: "Soporte Multilingüe",
-        description: "Soporte en inglés, español, frances y valenciano para acomodar a todos los huéspedes."
+        description: "Soporte en Inglés, Español, Frances y Valenciano para acomodar a todos los huéspedes."
       },
       item6: {
         title: "Documentación Legal",
