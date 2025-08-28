@@ -288,4 +288,5 @@ export const translations: TranslationDictionary = {
       quickLinks: "Liens rapides",
       contact: "Contact",
       copyright: "Tous droits réservés."
+    }
 };
