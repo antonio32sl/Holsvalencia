@@ -42,6 +42,7 @@ export default function Navbar() {
     { code: 'en', name: 'English' },
     { code: 'es', name: 'Español' },
     { code: 'ca', name: 'Valencià' }
+    { code: 'fr', name: 'Français' }
   ];
   
   return (
