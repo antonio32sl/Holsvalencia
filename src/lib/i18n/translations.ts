@@ -42,7 +42,7 @@ export const translations: TranslationDictionary = {
       },
       item5: {
         title: "Multilingual Support",
-        description: "Support in English, Spanish, and Valencian to accommodate all guests."
+        description: "Support in English, Spanish, French and Valencian to accommodate all guests."
       },
       item6: {
         title: "Legal Documentation",
@@ -113,7 +113,7 @@ export const translations: TranslationDictionary = {
       },
       item5: {
         title: "Soporte Multilingüe",
-        description: "Soporte en inglés, español y valenciano para acomodar a todos los huéspedes."
+        description: "Soporte en inglés, español, frances y valenciano para acomodar a todos los huéspedes."
       },
       item6: {
         title: "Documentación Legal",
@@ -184,7 +184,7 @@ export const translations: TranslationDictionary = {
       },
       item5: {
         title: "Suport Multilingüe",
-        description: "Suport en anglés, espanyol i valencià per acomodar a tots els hostes."
+        description: "Suport en anglés, espanyol, francés i valencià per acomodar a tots els hostes."
       },
       item6: {
         title: "Documentació Legal",
@@ -218,5 +218,74 @@ export const translations: TranslationDictionary = {
       contact: "Contacte",
       copyright: "Tots els drets reservats."
     }
-  }
+  },
+  
+  // frances translations
+  fr: {
+    nav: {
+      home: "Inici",
+      services: "Serveis",
+      booking: "Reserves",
+      contact: "Contacte",
+      selectLanguage: "Seleccionar idioma"
+    },
+    hero: {
+      title: "Gestion professionnelle de propriétés à Valence ",
+      subtitle: "Solutions complètes pour propriétaires et voyageurs",
+      cta: "Réserver maintenant "
+    },
+    services: {
+      title: "Els Nostres Serveis",
+      subtitle: "Tout ce dont vous avez besoin pour gérer efficacement votre propriété ",
+      item1: {
+        title: "Communication avec les hôtes ",
+        description: "Communication 24h/24 et 7j/7 avec les hôtes dans différentes langues pour garantir un séjour sans problème."
+      },
+      item2: {
+        title: "Gestion du calendrier",
+        description: "Gestion professionnelle de votre calendrier de réservations sur plusieurs plateformes."
+      },
+      item3: {
+        title: "Service de nettoyage",
+        description: "Services de nettoyage de haute qualité entre les séjours afin de maintenir les normes de la propriété."
+      },
+      item4: {
+        title: "Maintenance",
+        description: "Réponse rapide aux problèmes de maintenance et vérifications régulières de la propriété."
+      },
+      item5: {
+        title: "Assistance multilingue",
+        description: "Assistance en anglais, espagnol, français et valencien pour accueillir tous les hôtes."
+      },
+      item6: {
+        title: "Documentation juridique",
+        description: "Gestion de toutes les exigences légales et des registres touristiques."
+      },
+      item7: {
+        title: "Optimisation des revenus",
+        description: "Tarifs stratégiques pour maximiser le potentiel de rentabilité de votre propriété."
+      }
+    },
+    booking: {
+      title: "Réserver nos services",
+      description: "Contactez-nous pour discuter de la manière dont nous pouvons vous aider à gérer votre propriété",
+      name: "Nom Complet",
+      email: "E-mail",
+      phone: "Numéro de téléphone",
+      date: "Sélectionner la date",
+      message: "Votre message ",
+      submit: "Envoyer la demande"
+    },
+    contact: {
+      title: "Contactez-nous",
+      address: "Adresse",
+      phone: "Téléphone",
+      email: " E-mail",
+      follow: "Suivez-nous"
+    },
+    footer: {
+      description: "Hola Hosts València offre des services complets de gestion immobilière pour les hôtes à Valence, facilitant la gestion et la rendant plus rentable.",
+      quickLinks: "Liens rapides",
+      contact: "Contact",
+      copyright: "Tous droits réservés."
 };
