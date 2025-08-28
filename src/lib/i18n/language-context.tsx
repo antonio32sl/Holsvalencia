@@ -23,7 +23,7 @@ export const LanguageProvider = ({ children }: { children: ReactNode }) => {
   // Get browser language or default to English
   const getBrowserLanguage = (): string => {
     const browserLang = navigator.language.split('-')[0];
-    return ['en', 'es', 'ca'].includes(browserLang) ? browserLang : 'en';
+    return ['en', 'es', 'ca', 'fr'].includes(browserLang) ? browserLang : 'en';
   };
   
   // Initialize with browser language or saved preference
