@@ -107,7 +107,7 @@ export default function Contact() {
               <CardContent className="p-0 h-full">
                 <iframe
                   title="Hola Hosts Valencia Location"
-                  src="https://www.google.com/maps/place/C%2F+de+la+Reina,+178,+Poblats+Mar%C3%ADtims,+46011+Val%C3%A8ncia/@39.4705451,-0.3331604,16z/data=!3m1!4b1!4m6!3m5!1s0xd604865fd132f99:0xb948abc225acf2ad!8m2!3d39.4705411!4d-0.3282895!16s%2Fg%2F11c5ll4ddt?entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D"
+                  src="https://maps.app.goo.gl/ATdC6c37iYpe7pyj6"
                   className="w-full h-full min-h-[400px]"
                   style={{ border: 0 }}
                   allowFullScreen
