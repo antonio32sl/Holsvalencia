@@ -94,7 +94,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center">
                 <Mail size={20} className="mr-2 text-blue-400" />
-                <span className="text-gray-400">info@holahostsvalencia.com</span>
+                <span className="text-gray-400">info@holahostsvalencia.es</span>
               </li>
             </ul>
           </div>
