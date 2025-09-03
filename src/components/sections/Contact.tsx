@@ -21,8 +21,8 @@ export default function Contact() {
     {
       icon: <Mail className="h-7 w-7 text-blue-500" />,
       label: t('contact.email'),
-      value: 'info@holahostsvalencia.com',
-      link: 'mailto:info@holahostsvalencia.com'
+      value: 'info@holahostsvalencia.es',
+      link: 'mailto:info@holahostsvalencia.es'
     }
   ];
   
